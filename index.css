@@ -1,0 +1,155 @@
+body{
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 5%;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+    }
+.navbar{
+    width: 100%;
+margin-right: 0;
+padding-right: 0;
+margin-top: 0;
+text-align: right;
+opacity: 0.7;
+}
+.nav-list{
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    }
+#first-head{
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 0;
+}
+.firstDIV{
+    display: flex;
+    flex-direction: row;
+}
+.secondDIV{
+    width: 110%;
+}
+.secondDIV img{
+width: 100%;
+height: 200px;
+}
+.secondchild{
+    display: flex;
+    flex-direction: row;
+}
+.secondchild h1{
+    font-size: 3rem;
+    width: 130%;
+    padding-top:5%;
+    margin:0;
+    font-weight: 1000;
+}
+.secondchild p{
+    margin: 0%;
+    padding-top:12%;
+    font-size: 1rem;
+    margin-right: 3%;
+    margin-left: 20%;
+    width: 80%;
+    opacity: 0.6;
+
+}
+.secondchild button{
+    margin-left: 20%;
+    width: 50%;
+    height: 40px;
+    margin-top: 4%;
+    border: none;
+    background-color: rgb(232, 118, 4);
+    color: white;
+}
+.firstParent{
+    display: flex;
+    flex-direction: row;
+}
+.thirdDIV{
+    margin-left: 3%;
+    background-color: rgb(11, 7, 27);
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 450px;
+    width: 55%;
+    line-height: 1.3;
+}
+.pars-second{
+    opacity: 0.6;
+    border-bottom: 1px solid white;
+}
+#no-border{
+    border: none;
+}
+.thirdDIV h1{
+    font-size: 2.25rem;
+    color: rgb(211, 142, 53);
+}
+.secondParent{
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    line-height: 0.8;
+    margin-top:5%
+
+    
+}
+.bottom-DIVS{
+    display: flex;
+    flex-direction: row;
+}
+.children{
+    padding-top: 0;
+    margin-top: -18px;
+    height: 100px;
+    margin-left: 3%;
+    line-height: 1.1;
+}
+.children h1{
+    font-size:1.5rem ;
+    opacity: 0.5;
+}
+.children h2{
+    font-size: 1rem;
+}
+.children p{
+    font-size: 0.7rem;
+    opacity: 0.6;
+}
+.secondParent img{
+    height: 100px;
+}
+@media screen and (max-width :500px){
+    body{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .firstParent{
+        display: block;
+    }
+    .secondchild{
+        display: block;
+    }
+    .secondParent{
+        display: block;
+    }
+    .firstDIV{
+        width: 100%;
+    }
+    .secondDIV{
+        width: 75%;
+        margin-left: 10%;
+    }
+    .thirdDIV{
+        height: 100%;
+        width: 90%;
+    }
+}
